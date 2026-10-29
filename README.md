@@ -297,7 +297,7 @@ Every **push** and **pull request** runs the tests on GitHub ([tests.yml](.githu
 | 🌐 Publish | Pushes it to the `gh-pages` branch |
 | 🔗 Link | The run's **Summary** page shows the report link |
 
-📊 Latest report: [nimrodwe.github.io/ebay-automation](https://nimrodwe.github.io/ebay-automation/) - each run also gets its own link: `https://nimrodwe.github.io/ebay-automation/<run number>/`. The report is published even when the tests fail.
+📊 Latest report: [nimrodwe.github.io/ebay-automation](https://nimrodwe.github.io/ebay-automation/) - always the newest run, no login needed. Each run also keeps its own copy, e.g. [/3/](https://nimrodwe.github.io/ebay-automation/3/) (last 20 runs). The report is published even when the tests fail.
 
 One-time setup on GitHub:
 

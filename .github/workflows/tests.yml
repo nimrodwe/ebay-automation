@@ -53,8 +53,9 @@ jobs:
           last=$(ls gh-pages | grep -E '^[0-9]+$' | sort -n | tail -1)
           if [ -d "gh-pages/$last/history" ]; then cp -r "gh-pages/$last/history" allure-results/; fi
           npx --yes allure-commandline@2.46.1 generate allure-results -o "allure-history/$RUN" --clean
-          echo "<meta http-equiv=\"refresh\" content=\"0; url=./$RUN/\">" > allure-history/index.html
           ls allure-history | grep -E '^[0-9]+$' | sort -n | head -n -20 | xargs -r -I{} rm -rf "allure-history/{}"
+          rm -rf allure-history/index.html allure-history/assets allure-history/data allure-history/widgets allure-history/history allure-history/export
+          cp -r "allure-history/$RUN/." allure-history/
 
       - name: Publish Allure report
         if: always()
