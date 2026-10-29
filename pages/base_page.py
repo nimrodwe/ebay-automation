@@ -62,7 +62,14 @@ class BasePage:
             self.click(element)
         self.reload_error_page()
         if not self.wait_for_ebay_check():
-            raise RuntimeError(f"eBay did not load the next page: '{self.page.title()}' at {self.page.url}")
+            self.raise_blocked("the next page")
+
+    def raise_blocked(self, what: str):
+        shown = "a CAPTCHA" if self.captcha_shown() else f"its 'Error Page' even after {self.ERROR_PAGE_RETRIES} retries"
+        raise RuntimeError(
+            f"eBay blocked {what}: it showed {shown} at {self.page.url}. "
+            f"This is eBay's bot protection, not a failed check"
+        )
 
     def type_into(self, element: Locator, text: str):
         with allure.step(f"Type into {element}"):

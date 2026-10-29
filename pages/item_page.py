@@ -54,7 +54,7 @@ class ItemPage(BasePage):
 
     def add_to_cart(self, url: str, number: int, items_in_cart: int) -> float | None:
         if not self.open(url):
-            raise RuntimeError(f"eBay did not show {url}")
+            self.raise_blocked(f"item {number}")
         name = self.title.inner_text()
         if not self.check_visible(self.add_to_cart_button):
             self.logger.info(f"Skipping item {number}: '{name}' has no Add to cart button (Buy It Now / offer only)")

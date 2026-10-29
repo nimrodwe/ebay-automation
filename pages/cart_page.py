@@ -16,7 +16,7 @@ class CartPage(BasePage):
     @allure.step("Empty the cart")
     def empty_cart(self):
         if not self.open():
-            raise RuntimeError("eBay did not show the cart")
+            self.raise_blocked("the cart")
         while self.remove_buttons.count() > 0:
             items_left = self.remove_buttons.count()
             self.click(self.remove_buttons.first)
@@ -26,7 +26,7 @@ class CartPage(BasePage):
     @allure.step("Check the cart total is not more than {budget_per_item} x {items_count}")
     def assert_cart_total_not_exceeds(self, budget_per_item: float, items_count: int):
         if not self.open():
-            raise RuntimeError("eBay did not show the cart")
+            self.raise_blocked("the cart")
         self.check_visible(self.items_total, required=True)
         items_total = self.parse_price(self.items_total.inner_text())
         limit = budget_per_item * items_count

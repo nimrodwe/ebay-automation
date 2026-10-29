@@ -66,7 +66,7 @@ class LoginPage(BasePage):
     @allure.step("Continue as guest")
     def continue_as_guest(self) -> bool:
         if not self.open(BASE_URL):
-            raise RuntimeError("eBay did not show the home page (CAPTCHA or Error Page), so the run can't continue as guest")
+            self.raise_blocked("the home page, so the run can't continue as guest")
         self.check_visible(self.sign_in_link, required=True)
         self.logger.info("Guest confirmed: 'Sign in' link visible")
         return False

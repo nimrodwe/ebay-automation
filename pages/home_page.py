@@ -16,6 +16,6 @@ class HomePage(BasePage):
     @allure.step("Search for '{query}'")
     def search(self, query: str):
         if not self.search_box.is_visible() and not self.open():
-            raise RuntimeError("eBay did not show the home page (CAPTCHA or Error Page)")
+            self.raise_blocked("the home page")
         self.type_into(self.search_box, query)
         self.click_and_wait(self.search_button)
