@@ -1,0 +1,1 @@
+[{"uid":"a89997493ea32311","name":"test_search_add_to_cart_budget[shoes]","time":{"start":1793307235076,"stop":1793307309849,"duration":74773},"status":"passed","severity":"normal"},{"uid":"fd73d3b15e92a5e9","name":"test_search_add_to_cart_budget[phone case]","time":{"start":1793307310853,"stop":1793307318482,"duration":7629},"status":"failed","severity":"normal"}]

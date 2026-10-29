@@ -1,0 +1,4 @@
+20:55:10 | INFO    | LoginPage | No credentials in .env - continuing as guest
+20:55:10 | INFO    | LoginPage | Open https://www.ebay.com
+20:55:11 | INFO    | LoginPage | eBay served an Error Page - retry 1/2 in 2s
+20:55:18 | ERROR   | LoginPage | Not visible: <Locator frame=<Frame name= url='https://www.ebay.com/'> selector='internal:role=link[name="Sign in"s]'>

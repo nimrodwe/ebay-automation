@@ -1,0 +1,6 @@
+page: https://www.ebay.com/
+[error] Failed to load resource: the server responded with a status of 403 ()
+[endGroup] {}
+[error] Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+[endGroup] {}
+[error] Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.

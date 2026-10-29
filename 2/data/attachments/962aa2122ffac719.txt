@@ -1,0 +1,66 @@
+20:53:55 | INFO    | LoginPage | No credentials in .env - continuing as guest
+20:53:55 | INFO    | LoginPage | Open https://www.ebay.com
+20:53:56 | INFO    | LoginPage | eBay served an Error Page - retry 1/2 in 2s
+20:54:01 | INFO    | LoginPage | Guest confirmed: 'Sign in' link visible
+20:54:01 | INFO    | HomePage | Type into <Locator frame=<Frame name= url='https://www.ebay.com/'> selector='#gh-ac'>
+20:54:01 | INFO    | HomePage | Click <Locator frame=<Frame name= url='https://www.ebay.com/'> selector='#gh-search-btn'>
+20:54:07 | INFO    | SearchResultsPage | Type into <Locator frame=<Frame name= url='https://www.ebay.com/sch/i.html?_nkw=shoes&_sacat=0&_from=R40&_trksid=p4624852.m570.l1313'> selector='internal:role=textbox[name="Maximum Value"i]'>
+20:54:08 | INFO    | SearchResultsPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/sch/i.html?_nkw=shoes&_sacat=0&_from=R40&_trksid=p4624852.m570.l1313'> selector='internal:role=button[name="Submit price range"i]'>
+20:54:09 | INFO    | SearchResultsPage | eBay served an Error Page - retry 1/2 in 2s
+20:54:22 | INFO    | SearchResultsPage | 60 items on this page cost up to 220
+20:54:22 | INFO    | SearchResultsPage | Found 5 items: ['https://www.ebay.com/itm/840028503150', 'https://www.ebay.com/itm/157858848231', 'https://www.ebay.com/itm/157982251580', 'https://www.ebay.com/itm/157612379719', 'https://www.ebay.com/itm/960127068983']
+20:54:22 | INFO    | ItemPage | Open https://www.ebay.com/itm/840028503150
+20:54:26 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/840028503150'> selector='#atcBtn_btn_1'>
+20:54:30 | INFO    | ItemPage | Added to cart 1: FILA Women's Running Shoes Size 8 Gray Pink Mesh Lace Up Athletic Sneakers | price 18.0
+20:54:31 | INFO    | ItemPage | Screenshot 'Added to cart 1 - FILA Women's Running Shoes Size 8 Gray Pink Mesh Lace Up Athletic Sneakers' saved to /home/runner/work/ebay-automation/ebay-automation/screenshots/Added_to_cart_1_-_FILA_Women_s_Running_Shoes_Size_8_Gray_Pink_Mesh_Lace_Up_Athle.png
+20:54:31 | INFO    | ItemPage | Back on the search tab - 1 items in the cart, total so far 18.0
+20:54:31 | INFO    | ItemPage | Open https://www.ebay.com/itm/157858848231
+20:54:31 | INFO    | ItemPage | eBay served an Error Page - retry 1/2 in 2s
+20:54:38 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/157858848231'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+20:54:38 | INFO    | ItemPage | US Shoe Size: picked '7.5' at random
+20:54:38 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/157858848231'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=5'>
+20:54:38 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/157858848231'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+20:54:39 | INFO    | ItemPage | Color: picked 'Cloud White / Mint Ton / Glow Purple' at random
+20:54:39 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/157858848231'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=1'>
+20:54:39 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/157858848231'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+20:54:39 | INFO    | ItemPage | Size: picked '7-' at random
+20:54:39 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/157858848231'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=0'>
+20:54:40 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/157858848231'> selector='#atcBtn_btn_1'>
+20:54:42 | INFO    | ItemPage | Added to cart 2: adidas women Ultraboost 5X Shoes | price 65.0
+20:54:42 | INFO    | ItemPage | Screenshot 'Added to cart 2 - adidas women Ultraboost 5X Shoes' saved to /home/runner/work/ebay-automation/ebay-automation/screenshots/Added_to_cart_2_-_adidas_women_Ultraboost_5X_Shoes.png
+20:54:42 | INFO    | ItemPage | Back on the search tab - 2 items in the cart, total so far 83.0
+20:54:42 | INFO    | ItemPage | Open https://www.ebay.com/itm/157982251580
+20:54:46 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/157982251580'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+20:54:47 | INFO    | ItemPage | US Shoe Size: picked '7' at random
+20:54:47 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/157982251580'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=4'>
+20:54:48 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/157982251580'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+20:54:48 | INFO    | ItemPage | Color: picked 'True Pink / Green / Cloud White' at random
+20:54:48 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/157982251580'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=1'>
+20:54:48 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/157982251580'> selector='#atcBtn_btn_1'>
+20:54:51 | INFO    | ItemPage | Added to cart 3: adidas women Gazelle Bold Shoes | price 60.0
+20:54:51 | INFO    | ItemPage | Screenshot 'Added to cart 3 - adidas women Gazelle Bold Shoes' saved to /home/runner/work/ebay-automation/ebay-automation/screenshots/Added_to_cart_3_-_adidas_women_Gazelle_Bold_Shoes.png
+20:54:51 | INFO    | ItemPage | Back on the search tab - 3 items in the cart, total so far 143.0
+20:54:51 | INFO    | ItemPage | Open https://www.ebay.com/itm/157612379719
+20:54:55 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/157612379719'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+20:54:56 | INFO    | ItemPage | US Shoe Size: picked '6.5' at random
+20:54:56 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/157612379719'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=2'>
+20:54:57 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/157612379719'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+20:54:57 | INFO    | ItemPage | Color: picked 'Cloud White / Core Black / Gum
+Most popular
+Most popular' at random
+20:54:57 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/157612379719'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=0'>
+20:54:57 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/157612379719'> selector='#atcBtn_btn_1'>
+20:54:59 | INFO    | ItemPage | Added to cart 4: adidas women Grand Court Lo Shoes | price 50.0
+20:55:00 | INFO    | ItemPage | Screenshot 'Added to cart 4 - adidas women Grand Court Lo Shoes' saved to /home/runner/work/ebay-automation/ebay-automation/screenshots/Added_to_cart_4_-_adidas_women_Grand_Court_Lo_Shoes.png
+20:55:00 | INFO    | ItemPage | Back on the search tab - 4 items in the cart, total so far 193.0
+20:55:00 | INFO    | ItemPage | Open https://www.ebay.com/itm/960127068983
+20:55:04 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/960127068983'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+20:55:05 | INFO    | ItemPage | US Shoe Size: picked '9.5' at random
+20:55:05 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/960127068983'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=1'>
+20:55:05 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/960127068983'> selector='#atcBtn_btn_1'>
+20:55:08 | INFO    | ItemPage | Added to cart 5: adidas men Terrex Anylander Hiking Shoes | price 38.0
+20:55:08 | INFO    | ItemPage | Screenshot 'Added to cart 5 - adidas men Terrex Anylander Hiking Shoes' saved to /home/runner/work/ebay-automation/ebay-automation/screenshots/Added_to_cart_5_-_adidas_men_Terrex_Anylander_Hiking_Shoes.png
+20:55:08 | INFO    | ItemPage | Back on the search tab - 5 items in the cart, total so far 231.0
+20:55:08 | INFO    | CartPage | Open https://cart.ebay.com/
+20:55:09 | INFO    | CartPage | Cart: 5 items | items total without shipping 231.0 | limit 220 x 5 = 1100
+20:55:09 | INFO    | CartPage | Screenshot 'Cart page' saved to /home/runner/work/ebay-automation/ebay-automation/screenshots/Cart_page.png
