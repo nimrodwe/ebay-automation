@@ -7,6 +7,10 @@ End-to-end UI test for **eBay** - search items under a price, add them to the ca
 ![pytest](https://img.shields.io/badge/pytest-tests-0A9EDC?logo=pytest&logoColor=white)
 ![Allure](https://img.shields.io/badge/Allure-report-FF6F00)
 
+[![eBay tests](https://github.com/nimrodwe/ebay-automation/actions/workflows/tests.yml/badge.svg)](https://github.com/nimrodwe/ebay-automation/actions/workflows/tests.yml)
+
+🔗 **CI runs:** [GitHub Actions](https://github.com/nimrodwe/ebay-automation/actions/workflows/tests.yml) · 📊 **Latest Allure report:** [nimrodwe.github.io/ebay-automation](https://nimrodwe.github.io/ebay-automation/)
+
 ---
 
 ## 📑 Table of Contents
@@ -18,6 +22,7 @@ End-to-end UI test for **eBay** - search items under a price, add them to the ca
 - [⚙️ Setup](#️-setup)
 - [▶️ How to run](#️-how-to-run)
 - [📊 Report and outputs](#-report-and-outputs)
+- [🤖 GitHub Actions](#-github-actions)
 - [⚠️ Limitations and assumptions](#️-limitations-and-assumptions)
 - [🐞 AI bugs exercise](#-ai-bugs-exercise)
 
@@ -109,6 +114,8 @@ flowchart TD
 
 ```text
 ebay-automation/
+├── .github/workflows/
+│   └── tests.yml               # CI: run tests on push / PR, publish Allure
 ├── data/
 │   └── search_data.json        # test data (query, max_price, limit)
 ├── pages/
@@ -276,6 +283,26 @@ allure generate allure-results -o allure-report --clean
 ```bash
 playwright show-trace traces/<test-name>.zip
 ```
+
+---
+
+## 🤖 GitHub Actions
+
+Every **push** and **pull request** runs the tests on GitHub ([tests.yml](.github/workflows/tests.yml)) and publishes the Allure report to GitHub Pages:
+
+| Step | What happens |
+|------|--------------|
+| 🧪 Run tests | Installs Python + Chromium, runs `pytest` headed in a virtual screen (`xvfb-run`) |
+| 📊 Build report | Builds the Allure report, keeping the history of the last 20 runs |
+| 🌐 Publish | Pushes it to the `gh-pages` branch |
+| 🔗 Link | The run's **Summary** page shows the report link |
+
+📊 Latest report: [nimrodwe.github.io/ebay-automation](https://nimrodwe.github.io/ebay-automation/) - each run also gets its own link: `https://nimrodwe.github.io/ebay-automation/<run number>/`. The report is published even when the tests fail.
+
+One-time setup on GitHub:
+
+1. After the first run, open **Settings → Pages**, set **Source** to *Deploy from a branch*, branch `gh-pages`, folder `/ (root)`.
+2. Optional - to sign in, add **Settings → Secrets and variables → Actions** secrets `EBAY_USER` and `EBAY_PASS`. Without them the run is a **guest**.
 
 ---
 

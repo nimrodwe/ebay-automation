@@ -1,0 +1,67 @@
+name: eBay tests
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: allure-pages
+  cancel-in-progress: false
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    env:
+      EBAY_USER: ${{ secrets.EBAY_USER }}
+      EBAY_PASS: ${{ secrets.EBAY_PASS }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install packages and Chromium
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+          sudo apt-get install -y xvfb
+
+      - name: Run tests
+        run: xvfb-run -a pytest
+
+      - name: Get Allure history
+        if: always()
+        continue-on-error: true
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Build Allure report
+        if: always()
+        uses: simple-elf/allure-report-action@v1.7
+        with:
+          gh_pages: gh-pages
+          allure_results: allure-results
+          allure_history: allure-history
+          keep_reports: 20
+
+      - name: Publish Allure report
+        if: always()
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: allure-history
+
+      - name: Allure report link
+        if: always()
+        run: |
+          link="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/${{ github.run_number }}/"
+          echo "Allure report: $link"
+          echo "### 📊 [Allure report for run #${{ github.run_number }}]($link)" >> "$GITHUB_STEP_SUMMARY"
