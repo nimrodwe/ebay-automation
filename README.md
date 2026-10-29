@@ -5,7 +5,7 @@ End-to-end UI test for **eBay** - search items under a price, add them to the ca
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-sync-2EAD33?logo=playwright&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-tests-0A9EDC?logo=pytest&logoColor=white)
-![Allure](https://img.shields.io/badge/Allure-report-FF6F00)
+[![Allure report](https://img.shields.io/badge/Allure-latest%20report-FF6F00)](https://nimrodwe.github.io/ebay-automation/)
 
 [![eBay tests](https://github.com/nimrodwe/ebay-automation/actions/workflows/tests.yml/badge.svg)](https://github.com/nimrodwe/ebay-automation/actions/workflows/tests.yml)
 
