@@ -18,9 +18,9 @@ jobs:
       EBAY_USER: ${{ secrets.EBAY_USER }}
       EBAY_PASS: ${{ secrets.EBAY_PASS }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.13"
           cache: pip
@@ -34,22 +34,27 @@ jobs:
       - name: Run tests
         run: xvfb-run -a pytest
 
-      - name: Get Allure history
+      - name: Get old reports
         if: always()
         continue-on-error: true
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: gh-pages
           path: gh-pages
 
       - name: Build Allure report
         if: always()
-        uses: simple-elf/allure-report-action@v1.7
-        with:
-          gh_pages: gh-pages
-          allure_results: allure-results
-          allure_history: allure-history
-          keep_reports: 20
+        env:
+          RUN: ${{ github.run_number }}
+        run: |
+          mkdir -p gh-pages allure-results allure-history
+          cp -r gh-pages/. allure-history/
+          rm -rf allure-history/.git
+          last=$(ls gh-pages | grep -E '^[0-9]+$' | sort -n | tail -1)
+          if [ -d "gh-pages/$last/history" ]; then cp -r "gh-pages/$last/history" allure-results/; fi
+          npx --yes allure-commandline@2.46.1 generate allure-results -o "allure-history/$RUN" --clean
+          echo "<meta http-equiv=\"refresh\" content=\"0; url=./$RUN/\">" > allure-history/index.html
+          ls allure-history | grep -E '^[0-9]+$' | sort -n | head -n -20 | xargs -r -I{} rm -rf "allure-history/{}"
 
       - name: Publish Allure report
         if: always()
