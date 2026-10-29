@@ -1,0 +1,49 @@
+21:33:18 | INFO    | LoginPage | No credentials in .env - continuing as guest
+21:33:18 | INFO    | LoginPage | Open https://www.ebay.com
+21:33:19 | INFO    | LoginPage | eBay served an Error Page - retry 1/2 in 2s
+21:33:24 | INFO    | LoginPage | Guest confirmed: 'Sign in' link visible
+21:33:24 | INFO    | HomePage | Type into <Locator frame=<Frame name= url='https://www.ebay.com/'> selector='#gh-ac'>
+21:33:24 | INFO    | HomePage | Click <Locator frame=<Frame name= url='https://www.ebay.com/'> selector='#gh-search-btn'>
+21:33:30 | INFO    | SearchResultsPage | Type into <Locator frame=<Frame name= url='https://www.ebay.com/sch/i.html?_nkw=phone+case&_sacat=0&_from=R40&_trksid=m570.l1313'> selector='internal:role=textbox[name="Maximum Value"i]'>
+21:33:31 | INFO    | SearchResultsPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/sch/i.html?_nkw=phone+case&_sacat=0&_from=R40&_trksid=m570.l1313'> selector='internal:role=button[name="Submit price range"i]'>
+21:33:35 | INFO    | SearchResultsPage | eBay served an Error Page - retry 1/2 in 2s
+21:33:53 | INFO    | SearchResultsPage | 60 items on this page cost up to 50
+21:33:53 | INFO    | SearchResultsPage | Found 3 items: ['https://www.ebay.com/itm/405805944030', 'https://www.ebay.com/itm/177953138573', 'https://www.ebay.com/itm/167426898664']
+21:33:53 | INFO    | ItemPage | Open https://www.ebay.com/itm/405805944030
+21:33:53 | INFO    | ItemPage | eBay served an Error Page - retry 1/2 in 2s
+21:34:02 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/405805944030'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+21:34:02 | INFO    | ItemPage | Color: picked 'Brown
+Most popular
+Most popular' at random
+21:34:02 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/405805944030'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=0'>
+21:34:03 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/405805944030'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+21:34:03 | INFO    | ItemPage | Fit for: picked 'Galaxy S21FE' at random
+21:34:03 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/405805944030'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=21'>
+21:34:04 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/405805944030?var=676333166349'> selector='#atcBtn_btn_1'>
+21:34:07 | INFO    | ItemPage | Added to cart 1: Leather Phone Case Belt Loop Waist Holster ​Wallet For Samsung S25 S26 Ultra | price 9.99
+21:34:08 | INFO    | ItemPage | Screenshot 'Added to cart 1 - Leather Phone Case Belt Loop Waist Holster ​Wallet For Samsung S25 S26 Ultra' saved to /home/runner/work/ebay-automation/ebay-automation/screenshots/Added_to_cart_1_-_Leather_Phone_Case_Belt_Loop_Waist_Holster_Wallet_For_Samsung_.png
+21:34:08 | INFO    | ItemPage | Back on the search tab - 1 items in the cart, total so far 9.99
+21:34:08 | INFO    | ItemPage | Open https://www.ebay.com/itm/177953138573
+21:34:14 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/177953138573'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+21:34:15 | INFO    | ItemPage | Phone Model: picked 'Samsung Galaxy A06/A07' at random
+21:34:15 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/177953138573'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=3'>
+21:34:15 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/177953138573'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+21:34:16 | INFO    | ItemPage | Select Color: picked 'Pink' at random
+21:34:16 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/177953138573'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=4'>
+21:34:16 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/177953138573'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+21:34:17 | INFO    | ItemPage | Package Included: picked 'Case +Tempered Glass Protector
+Most popular
+Most popular' at random
+21:34:17 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/177953138573'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=1'>
+21:34:17 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/177953138573?var=477483098960'> selector='#atcBtn_btn_1'>
+21:34:20 | INFO    | ItemPage | Added to cart 2: For Samsung Galaxy A16 A17 A55 Phone Cover Frost Rugged Mag Safe+Tempered Glass | price 11.0
+21:34:20 | INFO    | ItemPage | Screenshot 'Added to cart 2 - For Samsung Galaxy A16 A17 A55 Phone Cover Frost Rugged Mag Safe+Tempered Glass' saved to /home/runner/work/ebay-automation/ebay-automation/screenshots/Added_to_cart_2_-_For_Samsung_Galaxy_A16_A17_A55_Phone_Cover_Frost_Rugged_Mag_Sa.png
+21:34:21 | INFO    | ItemPage | Back on the search tab - 2 items in the cart, total so far 20.99
+21:34:21 | INFO    | ItemPage | Open https://www.ebay.com/itm/167426898664
+21:34:27 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/167426898664'> selector='#atcBtn_btn_1'>
+21:34:30 | INFO    | ItemPage | Added to cart 3: 4 Pack Faraday Bag Cell Phone Wallet Blocker Radiation Signal Shielding Case US | price 11.41
+21:34:30 | INFO    | ItemPage | Screenshot 'Added to cart 3 - 4 Pack Faraday Bag Cell Phone Wallet Blocker Radiation Signal Shielding Case US' saved to /home/runner/work/ebay-automation/ebay-automation/screenshots/Added_to_cart_3_-_4_Pack_Faraday_Bag_Cell_Phone_Wallet_Blocker_Radiation_Signal_.png
+21:34:30 | INFO    | ItemPage | Back on the search tab - 3 items in the cart, total so far 32.4
+21:34:30 | INFO    | CartPage | Open https://cart.ebay.com/
+21:34:32 | INFO    | CartPage | Cart: 3 items | items total without shipping 32.4 | limit 50 x 3 = 150
+21:34:32 | INFO    | CartPage | Screenshot 'Cart page' saved to /home/runner/work/ebay-automation/ebay-automation/screenshots/Cart_page.png
