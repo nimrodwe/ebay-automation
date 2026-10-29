@@ -1,0 +1,50 @@
+page: https://cart.ebay.com/
+[error] Failed to load resource: the server responded with a status of 403 ()
+[endGroup] {}
+[error] Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+[error] The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.
+[endGroup] {}
+[error] The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.
+[error] The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.
+[error] The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.
+[error] The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.
+[error] Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+[error] The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.
+[error] The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.
+[error] The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.
+[error] The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.
+[warning] Header: trk missing
+[warning] Header: trk missing
+[warning] Header: trk missing
+[warning] Header: trk missing
+[warning] The PerformanceObserver does not support buffered flag with the entryTypes argument.
+[endGroup] {}
+[error] Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+[warning] Header: trk missing
+[log] done
+[warning] Header: trk missing
+[log] joinUs() at %ce%cb%ca%cy%c! font-weight:bold;color:#e53238; font-weight:bold;color:#0064d2 font-weight:bold;color:#f5af02 font-weight:bold;color:#86b817 color:black
+[warning] Header: trk missing
+[warning] Header: trk missing
+[warning] Header: trk missing
+[endGroup] {}
+[error] Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+[log] done
+[error] Failed to load resource: the server responded with a status of 403 ()
+[error] [x-wire] Navigation error: Fragment request failed: 403
+[error] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+[error] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+[warning] Header: trk missing
+[log] joinUs() at %ce%cb%ca%cy%c! font-weight:bold;color:#e53238; font-weight:bold;color:#0064d2 font-weight:bold;color:#f5af02 font-weight:bold;color:#86b817 color:black
+[warning] Header: trk missing
+[warning] Header: trk missing
+[warning] Header: trk missing
+[endGroup] {}
+[error] Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+[log] done
+[error] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+[error] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+[warning] [GPT] Slot.clearTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#171
+[error] The source list for the Content Security Policy directive 'connect-src' contains an invalid source: '.ucweb.com'. It will be ignored.
+[warning] The PerformanceObserver does not support buffered flag with the entryTypes argument.

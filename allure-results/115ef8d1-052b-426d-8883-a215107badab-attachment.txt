@@ -1,0 +1,39 @@
+page: https://cart.ebay.com/
+[error] Failed to load resource: the server responded with a status of 403 ()
+[endGroup] {}
+[error] Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+[error] The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.
+[endGroup] {}
+[error] The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.
+[error] The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.
+[error] The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.
+[error] The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.
+[error] Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+[warning] Header: trk missing
+[warning] Header: trk missing
+[warning] Header: trk missing
+[warning] Header: trk missing
+[warning] The PerformanceObserver does not support buffered flag with the entryTypes argument.
+[endGroup] {}
+[error] Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+[error] Failed to load resource: the server responded with a status of 403 ()
+[endGroup] {}
+[error] Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+[error] Failed to load resource: the server responded with a status of 403 ()
+[endGroup] {}
+[error] Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+[log] joinUs() at %ce%cb%ca%cy%c! font-weight:bold;color:#e53238; font-weight:bold;color:#0064d2 font-weight:bold;color:#f5af02 font-weight:bold;color:#86b817 color:black
+[warning] Header: trk missing
+[warning] Header: trk missing
+[warning] Header: trk missing
+[warning] Header: trk missing
+[endGroup] {}
+[log] done
+[error] Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+[error] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+[error] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+[warning] [x-wire] No element for region: showdiag
+[warning] [Meta Pixel] - Removed URL query parameters due to potential violations.
+[log] done
+[error] The source list for the Content Security Policy directive 'connect-src' contains an invalid source: '.ucweb.com'. It will be ignored.
+[warning] The PerformanceObserver does not support buffered flag with the entryTypes argument.

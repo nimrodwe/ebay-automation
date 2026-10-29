@@ -1,0 +1,10 @@
+services:
+  tests:
+    build: .
+    init: true
+    ipc: host
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      - ./allure-results:/app/allure-results

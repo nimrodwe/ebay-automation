@@ -1,0 +1,39 @@
+17:48:38 | INFO    | LoginPage | eBay showed a CAPTCHA earlier in this run - skipping sign-in, continuing as guest
+17:48:38 | INFO    | LoginPage | Open https://www.ebay.com
+17:48:39 | INFO    | LoginPage | eBay served an Error Page - retry 1/2 in 2s
+17:48:42 | INFO    | LoginPage | eBay is running its automatic check - waiting for it to finish
+17:48:44 | INFO    | LoginPage | Guest confirmed: 'Sign in' link visible
+17:48:44 | INFO    | HomePage | Type into <Locator frame=<Frame name= url='https://www.ebay.com/'> selector='#gh-ac'>
+17:48:44 | INFO    | HomePage | Click <Locator frame=<Frame name= url='https://www.ebay.com/'> selector='#gh-search-btn'>
+17:48:44 | INFO    | HomePage | eBay served an Error Page - retry 1/2 in 2s
+17:48:46 | INFO    | HomePage | eBay served an Error Page - retry 2/2 in 4s
+17:48:54 | INFO    | SearchResultsPage | Type into <Locator frame=<Frame name= url='https://www.ebay.com/sch/i.html?_nkw=phone+case&_sacat=0&_from=R40&_trksid=m570.l1313'> selector='internal:role=textbox[name="Maximum Value"i]'>
+17:48:54 | INFO    | SearchResultsPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/sch/i.html?_nkw=phone+case&_sacat=0&_from=R40&_trksid=m570.l1313'> selector='internal:role=button[name="Submit price range"i]'>
+17:49:02 | INFO    | SearchResultsPage | 60 items on this page cost up to 50
+17:49:02 | INFO    | SearchResultsPage | Found 3 items: ['https://www.ebay.com/itm/287653469952', 'https://www.ebay.com/itm/305370063870', 'https://www.ebay.com/itm/285988693628']
+17:49:02 | INFO    | ItemPage | Open https://www.ebay.com/itm/287653469952
+17:49:05 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/287653469952'> selector='#atcBtn_btn_1'>
+17:49:07 | INFO    | ItemPage | Added to cart 1: Waterproof Case For SAMSUNG GALAXY A22 Superior To Others | price 17.18
+17:49:08 | INFO    | ItemPage | Screenshot 'Added to cart 1 - Waterproof Case For SAMSUNG GALAXY A22 Superior To Others' saved to /app/screenshots/Added_to_cart_1_-_Waterproof_Case_For_SAMSUNG_GALAXY_A22_Superior_To_Others.png
+17:49:08 | INFO    | ItemPage | Back on the search tab - 1 items in the cart, total so far 17.18
+17:49:08 | INFO    | ItemPage | Open https://www.ebay.com/itm/305370063870
+17:49:12 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/305370063870'> selector='#atcBtn_btn_1'>
+17:49:14 | INFO    | ItemPage | Added to cart 2: Rome Tech Belt Clip Phone Case, Cover for Samsung Galaxy A15 5G | price 49.86
+17:49:15 | INFO    | ItemPage | Screenshot 'Added to cart 2 - Rome Tech Belt Clip Phone Case, Cover for Samsung Galaxy A15 5G' saved to /app/screenshots/Added_to_cart_2_-_Rome_Tech_Belt_Clip_Phone_Case_Cover_for_Samsung_Galaxy_A15_5G.png
+17:49:15 | INFO    | ItemPage | Back on the search tab - 2 items in the cart, total so far 67.04
+17:49:15 | INFO    | ItemPage | Open https://www.ebay.com/itm/285988693628
+17:49:18 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/285988693628'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+17:49:18 | INFO    | ItemPage | Compatible Model: picked 'For Google Pixel 9 Pro' at random
+17:49:18 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/285988693628'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=1'>
+17:49:19 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/285988693628'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+17:49:19 | INFO    | ItemPage | Tempered Glasses: picked 'No
+Most popular
+Most popular' at random
+17:49:19 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/285988693628'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=0'>
+17:49:19 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/285988693628'> selector='#atcBtn_btn_1'>
+17:49:21 | INFO    | ItemPage | Added to cart 3: For Google Pixel 9 Pro XL 9 Pro 9 2024 Belt Clip Holster Hybrid Phone Case Cover | price 49.86
+17:49:21 | INFO    | ItemPage | Screenshot 'Added to cart 3 - For Google Pixel 9 Pro XL 9 Pro 9 2024 Belt Clip Holster Hybrid Phone Case Cover' saved to /app/screenshots/Added_to_cart_3_-_For_Google_Pixel_9_Pro_XL_9_Pro_9_2024_Belt_Clip_Holster_Hybri.png
+17:49:21 | INFO    | ItemPage | Back on the search tab - 3 items in the cart, total so far 116.9
+17:49:21 | INFO    | CartPage | Open https://cart.ebay.com/
+17:49:23 | INFO    | CartPage | Cart: 3 items | items total without shipping 116.9 | limit 50 x 3 = 150
+17:49:23 | INFO    | CartPage | Screenshot 'Cart page' saved to /app/screenshots/Cart_page.png

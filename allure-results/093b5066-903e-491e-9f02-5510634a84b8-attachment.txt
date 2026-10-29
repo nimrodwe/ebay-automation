@@ -1,0 +1,68 @@
+17:47:36 | INFO    | LoginPage | Open https://signin.ebay.com/signin/
+17:47:37 | INFO    | LoginPage | eBay served an Error Page - retry 1/2 in 2s
+17:47:40 | INFO    | LoginPage | eBay asked for a CAPTCHA: https://www.ebay.com/splashui/captcha?ap=1&appName=orch&ru=https%3A%2F%2Fsignin.ebay.com%2Fsignin%2F&iid=55373e8a-dfdd-489c-8332-504938bdac21&iim=VODkuMn&iia=KSTM5Ljxz&iiz=XIpY5LjI3lLX
+17:47:41 | INFO    | LoginPage | eBay did not show the sign-in page
+17:47:41 | INFO    | LoginPage | CAPTCHA visible: True
+17:47:41 | INFO    | LoginPage | Sign-in did not complete - continuing as guest
+17:47:41 | INFO    | LoginPage | Open https://www.ebay.com
+17:47:42 | INFO    | LoginPage | Guest confirmed: 'Sign in' link visible
+17:47:42 | INFO    | HomePage | Type into <Locator frame=<Frame name= url='https://www.ebay.com/'> selector='#gh-ac'>
+17:47:42 | INFO    | HomePage | Click <Locator frame=<Frame name= url='https://www.ebay.com/'> selector='#gh-search-btn'>
+17:47:46 | INFO    | SearchResultsPage | Type into <Locator frame=<Frame name= url='https://www.ebay.com/sch/i.html?_nkw=shoes&_sacat=0&_from=R40&_trksid=p4624852.m570.l1313'> selector='internal:role=textbox[name="Maximum Value"i]'>
+17:47:47 | INFO    | SearchResultsPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/sch/i.html?_nkw=shoes&_sacat=0&_from=R40&_trksid=p4624852.m570.l1313'> selector='internal:role=button[name="Submit price range"i]'>
+17:47:55 | INFO    | SearchResultsPage | 60 items on this page cost up to 220
+17:47:55 | INFO    | SearchResultsPage | Found 5 items: ['https://www.ebay.com/itm/196896303899', 'https://www.ebay.com/itm/178064614857', 'https://www.ebay.com/itm/197057989341', 'https://www.ebay.com/itm/196902817813', 'https://www.ebay.com/itm/318794648898']
+17:47:55 | INFO    | ItemPage | Open https://www.ebay.com/itm/196896303899
+17:47:56 | INFO    | ItemPage | eBay served an Error Page - retry 1/2 in 2s
+17:48:01 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/196896303899'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+17:48:01 | INFO    | ItemPage | Size: picked 'US 10' at random
+17:48:01 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/196896303899'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=5'>
+17:48:02 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/196896303899'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+17:48:02 | INFO    | ItemPage | Color: picked 'White sole' at random
+17:48:02 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/196896303899'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=0'>
+17:48:02 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/196896303899?var=496509300886'> selector='#atcBtn_btn_1'>
+17:48:04 | INFO    | ItemPage | Added to cart 1: Bridal Sneakers, Wedding Shoes, Red Roses Low Top Sneakers, Bridesmaid Shoes, | price 216.46
+17:48:05 | INFO    | ItemPage | Screenshot 'Added to cart 1 - Bridal Sneakers, Wedding Shoes, Red Roses Low Top Sneakers, Bridesmaid Shoes,' saved to /app/screenshots/Added_to_cart_1_-_Bridal_Sneakers_Wedding_Shoes_Red_Roses_Low_Top_Sneakers_Bride.png
+17:48:05 | INFO    | ItemPage | Back on the search tab - 1 items in the cart, total so far 216.46
+17:48:05 | INFO    | ItemPage | Open https://www.ebay.com/itm/178064614857
+17:48:08 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/178064614857'> selector='#atcBtn_btn_1'>
+17:48:10 | INFO    | ItemPage | Added to cart 2: shoes S.Oliver | price 140.31
+17:48:10 | INFO    | ItemPage | Screenshot 'Added to cart 2 - shoes S.Oliver' saved to /app/screenshots/Added_to_cart_2_-_shoes_S_Oliver.png
+17:48:10 | INFO    | ItemPage | Back on the search tab - 2 items in the cart, total so far 356.77
+17:48:10 | INFO    | ItemPage | Open https://www.ebay.com/itm/197057989341
+17:48:13 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/197057989341'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+17:48:14 | INFO    | ItemPage | Size: picked 'US 11' at random
+17:48:14 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/197057989341'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=6'>
+17:48:14 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/197057989341'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+17:48:14 | INFO    | ItemPage | Color: picked 'Black sole' at random
+17:48:14 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/197057989341'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=1'>
+17:48:15 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/197057989341?var=496643045578'> selector='#atcBtn_btn_1'>
+17:48:17 | INFO    | ItemPage | Added to cart 3: Nurses Sneakers Medical Shoes Healthcare Worker Nurse Appreciation Gift | price 136.6
+17:48:17 | INFO    | ItemPage | Screenshot 'Added to cart 3 - Nurses Sneakers Medical Shoes Healthcare Worker Nurse Appreciation Gift' saved to /app/screenshots/Added_to_cart_3_-_Nurses_Sneakers_Medical_Shoes_Healthcare_Worker_Nurse_Apprecia.png
+17:48:17 | INFO    | ItemPage | Back on the search tab - 3 items in the cart, total so far 493.37
+17:48:17 | INFO    | ItemPage | Open https://www.ebay.com/itm/196902817813
+17:48:18 | INFO    | ItemPage | eBay served an Error Page - retry 1/2 in 2s
+17:48:23 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/196902817813'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+17:48:23 | INFO    | ItemPage | Size: picked 'US 8' at random
+17:48:23 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/196902817813'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=3'>
+17:48:24 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/196902817813'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+17:48:24 | INFO    | ItemPage | Color: picked 'White sole' at random
+17:48:24 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/196902817813'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=0'>
+17:48:24 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/196902817813?var=496514845118'> selector='#atcBtn_btn_1'>
+17:48:26 | INFO    | ItemPage | Added to cart 4: Bald Eagle American Flag Sneakers, Patriotic Sneaker, Rustic Flag Shoes, Eagle | price 156.4
+17:48:27 | INFO    | ItemPage | Screenshot 'Added to cart 4 - Bald Eagle American Flag Sneakers, Patriotic Sneaker, Rustic Flag Shoes, Eagle' saved to /app/screenshots/Added_to_cart_4_-_Bald_Eagle_American_Flag_Sneakers_Patriotic_Sneaker_Rustic_Fla.png
+17:48:27 | INFO    | ItemPage | Back on the search tab - 4 items in the cart, total so far 649.77
+17:48:27 | INFO    | ItemPage | Open https://www.ebay.com/itm/318794648898
+17:48:30 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/318794648898'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+17:48:30 | INFO    | ItemPage | Color: picked 'Pink' at random
+17:48:30 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/318794648898'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=2'>
+17:48:31 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/318794648898'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+17:48:31 | INFO    | ItemPage | Shoe Size: picked '38' at random
+17:48:31 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/318794648898'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=1'>
+17:48:31 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/318794648898?var=617030298372'> selector='#atcBtn_btn_1'>
+17:48:34 | INFO    | ItemPage | Added to cart 5: New Vibram Five Fingers Yoga Shoes Women's V-Soul Sneaker Dance Shoes US Size6-8 | price 171.15
+17:48:35 | INFO    | ItemPage | Screenshot 'Added to cart 5 - New Vibram Five Fingers Yoga Shoes Women's V-Soul Sneaker Dance Shoes US Size6-8' saved to /app/screenshots/Added_to_cart_5_-_New_Vibram_Five_Fingers_Yoga_Shoes_Women_s_V-Soul_Sneaker_Danc.png
+17:48:35 | INFO    | ItemPage | Back on the search tab - 5 items in the cart, total so far 820.92
+17:48:35 | INFO    | CartPage | Open https://cart.ebay.com/
+17:48:37 | INFO    | CartPage | Cart: 5 items | items total without shipping 820.92 | limit 220 x 5 = 1100
+17:48:37 | INFO    | CartPage | Screenshot 'Cart page' saved to /app/screenshots/Cart_page.png
