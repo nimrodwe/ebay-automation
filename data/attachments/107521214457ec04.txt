@@ -1,0 +1,50 @@
+page: https://cart.ebay.com/
+[error] Failed to load resource: the server responded with a status of 403 ()
+[endGroup] {}
+[error] Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+[warning] Header: trk missing
+[warning] Header: trk missing
+[warning] Header: trk missing
+[warning] Header: trk missing
+[warning] The PerformanceObserver does not support buffered flag with the entryTypes argument.
+[warning] [Rive: state-change-events] Subscribing to state change events at runtime is deprecated and will be removed in a future major version: use data binding (view model property observers) or state machine actions to react to changes from your graphic instead. See https://rive.app/docs/editor/state-machine/states#actions for how to migrate.
+To suppress this warning, set Rive.suppressDeprecationWarnings = ["state-change-events"]
+[warning] [Rive: state-machines-param] The `stateMachines` parameter is deprecated: please use `stateMachine` with a single state machine name instead.
+To suppress this warning, set Rive.suppressDeprecationWarnings = ["state-machines-param"]
+[info] Connecting to 'https://unpkg.com/@rive-app/canvas-lite@2.44.2/rive.wasm' violates the following Content Security Policy directive: "connect-src 'self' *.ebay.com *.ebaystatic.com *.ebaystatic.cn data: *.google-analytics.com *.doubleclick.net *.avalon.perfdrive.com *.ebayimg.com *.ucweb.com *.akamaihd.net *.ucads.ucweb.com *.analytics.google.com *.g.doubleclick.net *.googletagmanager.com *.pinterest.com *.snapchat.com *.criteo.com *.facebook.com *.googleapis.com *.googleadservices.com blob: analytics.google.com *.us.shoplive.cloud www.facebook.com *.bing.com www.googletagmanager.com google.com *.google.com *.graphitevault.com *.amplitude.com wss://127.0.0.1:* www.redditstatic.com *.reddit.com *.quantummetric.com". The policy is report-only, so the violation has been logged but no further action has been taken.
+[info] Connecting to 'https://unpkg.com/@rive-app/canvas-lite@2.44.2/rive.wasm' violates the following Content Security Policy directive: "connect-src 'self' *.ebay.com *.ebaystatic.com *.ebaystatic.cn data: *.google-analytics.com *.doubleclick.net *.avalon.perfdrive.com *.ebayimg.com *.ucweb.com *.akamaihd.net *.ucads.ucweb.com *.analytics.google.com *.g.doubleclick.net *.googletagmanager.com *.pinterest.com *.snapchat.com *.criteo.com *.facebook.com *.googleapis.com *.googleadservices.com blob: analytics.google.com *.us.shoplive.cloud www.facebook.com *.bing.com www.googletagmanager.com google.com *.google.com *.graphitevault.com *.amplitude.com wss://127.0.0.1:* www.redditstatic.com *.reddit.com *.quantummetric.com". The policy is report-only, so the violation has been logged but no further action has been taken.
+[endGroup] {}
+[log] done
+[error] Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+[warning] [Rive: state-machine-inputs] State machine inputs are deprecated and will be removed in a future major version: please use data binding properties instead. See https://rive.app/docs/editor/data-binding/migration-guide#state-machine-inputs for how to migrate.
+To suppress this warning, set Rive.suppressDeprecationWarnings = ["state-machine-inputs"]
+[error] Failed to load resource: the server responded with a status of 403 ()
+[endGroup] {}
+[error] Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+[error] Failed to load resource: the server responded with a status of 403 ()
+[endGroup] {}
+[error] Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+[log] joinUs() at %ce%cb%ca%cy%c! font-weight:bold;color:#e53238; font-weight:bold;color:#0064d2 font-weight:bold;color:#f5af02 font-weight:bold;color:#86b817 color:black
+[warning] Header: trk missing
+[warning] Header: trk missing
+[warning] Header: trk missing
+[warning] Header: trk missing
+[endGroup] {}
+[log] done
+[error] Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+[error] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+[error] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+[warning] [x-wire] No element for region: showdiag
+[warning] [Meta Pixel] - Removed URL query parameters due to potential violations.
+[log] done
+[warning] [GPT] Slot.clearTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#171
+[error] The source list for the Content Security Policy directive 'connect-src' contains an invalid source: '.ucweb.com'. It will be ignored.
+[info] Loading the image 'https://assets.adidas.com/images/6935b6e639844d54a6786b1613810ee6_9366/JH7243_00_plp_standard.jpgJH7243_00_plp_standard.jpg' violates the following Content Security Policy directive: "default-src 'self' blob: data: wss: mediastream: *.ebayimg.com *.gstatic.com *.paypal.com *.ebay.com *.ebaystatic.com *.ebaystatic.cn *.bluekai.com *.qualtrics.com *.paypalobjects.com *.quantummetric.com *.akamaihd.net *.google.com *.auctiva.com *.channeladvisor.com *.inkfrog.com *.frooition.com *.sellercloud.com *.seebay.co.uk *.powersportsupport.com use.fontawesome.com *.cloudflare.com *.googleapis.com *.hilzweb.com *.atelieronweb.com *.googletagmanager.com *.toolweb.com *.google-analytics.com *.ucweb.com *.doubleclick.net *.bootstrapcdn.com *.sellbrite.com *.puretheweb.com". Note that 'img-src' was not explicitly set, so 'default-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken.
+[warning] The PerformanceObserver does not support buffered flag with the entryTypes argument.
+[error] Access to XMLHttpRequest at 'https://www.ebay.com/gh/user_profile?modules=USER_PROFILE&behavior=GET_PROFILE&moduleType=USER_PROFILE&correlation=si%3D8a00be631a10a47ed31e8546ffd43645%2Cc%3D55%2CserviceCorrelationId%3D01M65043DSB916ACF9JPCZBRBJ%2Csid%3Dp4429486.l1473%2CoperationId%3D2376473%2Ctrk-gflgs%3D&v=2' from origin 'https://cart.ebay.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[log] Err calling gadget: ProgressEvent
+[error] Failed to load resource: net::ERR_FAILED
+[error] Access to fetch at 'https://pay.ebay.com/resources' from origin 'https://cart.ebay.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[error] Failed to load resource: net::ERR_FAILED
+[error] The source list for the Content Security Policy directive 'connect-src' contains an invalid source: '.ucweb.com'. It will be ignored.
