@@ -1,0 +1,23 @@
+23:19:53 | INFO    | LoginPage | No credentials in .env - continuing as guest
+23:19:53 | INFO    | LoginPage | Open https://www.ebay.com
+23:19:53 | INFO    | LoginPage | eBay served an Error Page - retry 1/2 in 2s
+23:20:00 | INFO    | LoginPage | Guest confirmed: 'Sign in' link visible
+23:20:00 | INFO    | HomePage | Type into <Locator frame=<Frame name= url='https://www.ebay.com/'> selector='#gh-ac'>
+23:20:00 | INFO    | HomePage | Click <Locator frame=<Frame name= url='https://www.ebay.com/'> selector='#gh-search-btn'>
+23:20:07 | INFO    | SearchResultsPage | Type into <Locator frame=<Frame name= url='https://www.ebay.com/sch/i.html?_nkw=phone+case&_sacat=0&_from=R40&_trksid=p4624852.m570.l1313'> selector='internal:role=textbox[name="Maximum Value"i]'>
+23:20:08 | INFO    | SearchResultsPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/sch/i.html?_nkw=phone+case&_sacat=0&_from=R40&_trksid=p4624852.m570.l1313'> selector='internal:role=button[name="Submit price range"i]'>
+23:20:10 | INFO    | SearchResultsPage | eBay served an Error Page - retry 1/2 in 2s
+23:20:12 | INFO    | SearchResultsPage | eBay served an Error Page - retry 2/2 in 4s
+23:20:31 | INFO    | SearchResultsPage | 60 items on this page cost up to 50
+23:20:31 | INFO    | SearchResultsPage | Found 3 items: ['https://www.ebay.com/itm/286772884001', 'https://www.ebay.com/itm/404207980261', 'https://www.ebay.com/itm/336090357976']
+23:20:31 | INFO    | ItemPage | Open https://www.ebay.com/itm/286772884001
+23:20:37 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/286772884001'> selector='#atcBtn_btn_1'>
+23:20:40 | INFO    | ItemPage | Added to cart 1: Superhero Tough Phone Cases for Marvel Fans, Protective Cover, Gift for [...] | price 34.7
+23:20:40 | INFO    | ItemPage | Screenshot 'Added to cart 1 - Superhero Tough Phone Cases for Marvel Fans, Protective Cover, Gift for [...]' saved to /home/runner/work/ebay-automation/ebay-automation/screenshots/Added_to_cart_1_-_Superhero_Tough_Phone_Cases_for_Marvel_Fans_Protective_Cover_G.png
+23:20:40 | INFO    | ItemPage | Back on the search tab - 1 items in the cart, total so far 34.7
+23:20:41 | INFO    | ItemPage | Open https://www.ebay.com/itm/404207980261
+23:20:46 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/404207980261'> selector='internal:role=button[name=": Select"i] >> nth=0'>
+23:20:47 | INFO    | ItemPage | 10000mAh: picked 'For iphone 13 Pro Max' at random
+23:20:47 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/404207980261'> selector='internal:role=option[disabled=false] >> visible=true >> internal:has-not-text="Select"i >> nth=1'>
+23:20:52 | INFO    | ItemPage | eBay did not show a price on the item page
+23:20:52 | INFO    | ItemPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/itm/404207980261?var=675737590157'> selector='#atcBtn_btn_1'>

@@ -1,0 +1,12 @@
+23:17:38 | INFO    | LoginPage | No credentials in .env - continuing as guest
+23:17:38 | INFO    | LoginPage | Open https://www.ebay.com
+23:17:38 | INFO    | LoginPage | eBay served an Error Page - retry 1/2 in 2s
+23:17:44 | INFO    | LoginPage | Guest confirmed: 'Sign in' link visible
+23:17:44 | INFO    | HomePage | Type into <Locator frame=<Frame name= url='https://www.ebay.com/'> selector='#gh-ac'>
+23:17:45 | INFO    | HomePage | Click <Locator frame=<Frame name= url='https://www.ebay.com/'> selector='#gh-search-btn'>
+23:17:47 | INFO    | HomePage | eBay served an Error Page - retry 1/2 in 2s
+23:17:49 | INFO    | HomePage | eBay served an Error Page - retry 2/2 in 4s
+23:17:59 | INFO    | SearchResultsPage | Type into <Locator frame=<Frame name= url='https://www.ebay.com/sch/i.html?_nkw=shoes&_sacat=0&_from=R40&_trksid=p4624852.m570.l1313'> selector='internal:role=textbox[name="Maximum Value"i]'>
+23:18:01 | INFO    | SearchResultsPage | Click <Locator frame=<Frame name= url='https://www.ebay.com/sch/i.html?_nkw=shoes&_sacat=0&_from=R40&_trksid=p4624852.m570.l1313'> selector='internal:role=button[name="Submit price range"i]'>
+23:18:03 | INFO    | SearchResultsPage | eBay served an Error Page - retry 1/2 in 2s
+23:18:05 | INFO    | SearchResultsPage | eBay served an Error Page - retry 2/2 in 4s
